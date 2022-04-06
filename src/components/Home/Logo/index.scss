@@ -30,3 +30,12 @@
   }
 }
 
+
+
+//====================== MEDIA ================
+
+@media only screen and (max-width: 600px) {
+  .logo-container{
+    display: none;
+  }
+}

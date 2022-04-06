@@ -81,7 +81,6 @@ const Contact = () => {
                     <a className='mail_link' href="mailto:alexei.cocu@gmail.com"><span>alexei.cocu@gmail.com</span></a>
                 </div>
 
-
                 <div className='map-wrap'>
                     <MapContainer center={[45.7657, 11.7273]} zoom={13}>
                         <TileLayer

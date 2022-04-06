@@ -79,3 +79,70 @@
     transform: rotateX(90deg);
   }
 }
+
+
+//======================== MEDIA =================
+@media only screen and (max-width: 600px) {
+  .about-page {
+    display: flex !important;
+    flex-direction: column-reverse;
+
+    .text-zone{
+      position: relative;
+      left: 9%;
+      top: 57% !important;
+      transform: translateY(5%);
+      width: 80% !important;
+      vertical-align: middle;
+      display: table-cell;
+      max-height: 90%;
+
+      h1{
+        font-size: 35px !important;
+      }
+    }
+
+    .stage-cube-cont {
+      position: relative;
+      width: 100%;
+    }
+  }
+
+  .cubespinner {
+
+    transform-origin: 31px 31px 0;
+    margin-left: calc(70% - 100px);
+
+    div {
+      width: 60px;
+      height: 60px;
+      font-size: 50px;
+    }
+
+    .face1 {
+      transform: translateZ(31px);
+      color: #dd0031;
+    }
+    .face2 {
+      transform: rotateY(90deg) translateZ(31px);
+      color: #f06529;
+    }
+    .face3 {
+      transform: rotateY(90deg) rotateX(90deg) translateZ(31px);
+      color: #28a4d9;
+    }
+    .face4 {
+      transform: rotateY(180deg) rotateZ(90deg) translateZ(31px);
+      color: #5ed4f4;
+    }
+    .face5 {
+      transform: rotateY(-90deg) rotateZ(90deg) translateZ(31px);
+      color: #efd81d;
+    }
+    .face6 {
+      transform: rotateX(-90deg) translateZ(31px);
+      color: #ec4d28;
+    }
+  }
+
+}

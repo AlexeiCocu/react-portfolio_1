@@ -118,3 +118,37 @@
     }
   }
 }
+
+
+
+//================== MEDIA ==================
+
+@media only screen and (max-width: 600px) {
+
+  .contact-page{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+
+  }
+
+  .text-zone{
+    top: 43% !important;
+    width: 80% !important;
+
+    h1{
+      font-size: 35px !important;
+    }
+  }
+
+  .map-wrap {
+    display: none;
+  }
+
+
+  .info-map {
+    display: none;
+  }
+
+}

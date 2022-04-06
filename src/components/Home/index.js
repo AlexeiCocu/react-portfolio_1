@@ -15,7 +15,7 @@ const Home = () => {
     const textDelay = () => {
         return setTimeout(() => {
             setLetterClass('text-animate-hover')
-        }, 4000)
+        }, 100)
     }
 
     useEffect(() => {

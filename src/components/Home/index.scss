@@ -83,3 +83,29 @@ h2 {
     transition: all 0.3s;
   }
 }
+
+
+//======================= MEDIA ============
+
+@media only screen and (max-width: 600px) {
+
+  .home-page {
+
+    .text-zone{
+      width: 90vw !important;
+      overflow: paged-x hidden;
+      top: 35%;
+    }
+
+    h1{
+      font-size: 30px !important;
+
+      img{
+        width: 30px !important;
+      }
+    }
+  }
+
+
+
+}
